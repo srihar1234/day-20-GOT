@@ -1,0 +1,48 @@
+body{
+    background-image: url("./Capture.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    color: beige;
+    text-align: center;
+}
+.search{
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 200px;
+    margin-top: 50px;
+    gap:0.5rem;
+}
+button{
+    font-weight: bolder;
+    background-color: black;
+    color: azure;
+}
+button:hover{
+    background-color: azure;
+    color: black;
+}
+input{
+    border:none;
+    width: 420px;
+    height: 40px;
+    font-weight: bolder;
+    background-color: black;
+    color: azure;
+}
+#cards{
+    display: flex;
+    flex-direction:column;
+    color:beige;
+    justify-content:right;
+    align-items: center;
+    width:400px;
+    gap:0.1rem;
+    margin-top: 10px;
+    margin-left: 730px;
+}
+
+
+
